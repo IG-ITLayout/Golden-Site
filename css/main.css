@@ -10,7 +10,6 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   font-family: "Montserrat", "Roboto Slab", "DroidSerif", sans-serif;
-  overflow-x: hidden;
 }
 h1 {
   font-family: Montserrat;
