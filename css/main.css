@@ -2,9 +2,7 @@
 * {
   box-sizing: border-box;
 }
-html{
-  overflow-x: hidden;
-}
+
 body {
   color: #fff;
   max-width: 1400px;
