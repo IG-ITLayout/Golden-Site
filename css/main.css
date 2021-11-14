@@ -167,6 +167,9 @@ service__commerrce-ikon {
   margin-top: 77px;
   align-content: stretch;
 }
+.service__commerrce-title{
+  color:black;
+}
 .service__commerrce-inner,
 .servce__web-inner,
 .service__security-inner {
