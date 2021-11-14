@@ -170,6 +170,12 @@ service__commerrce-ikon {
 .service__commerrce-title{
   color:black;
 }
+.servce__web-title{
+  color:black;
+}
+.service__security-title{
+  color:black;
+}
 .service__commerrce-inner,
 .servce__web-inner,
 .service__security-inner {
