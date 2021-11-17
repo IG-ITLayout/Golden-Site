@@ -39,16 +39,17 @@ a {
   content: "";
   position: absolute;
   top: 0;
+  left: 0;
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 100vh;
   background-color: rgb(0, 0, 0);
   opacity: 0.502;
 }
 
 .header {
   position: relative;
-  height: 700px;
+  height: 100vh;
   max-width: 1400px;
   background-image: url(../img/headerfone.jpg);
   background-position: top center;
@@ -56,12 +57,12 @@ a {
   background-size: cover;
   margin: 0 auto;
   overflow: hidden;
+  z-index: 1;
 }
 .contain {
   position: relative;
   max-width: 940px;
   margin: 0 auto;
-  z-index: 1;
 }
 
 .menu {
@@ -464,6 +465,17 @@ service__commerrce-ikon {
 .partners a:hover{
   opacity: 0.6;
 }
+.contakt {
+  position: relative;
+  max-width: 1400px;
+  background-color: #222222;
+  height: 676px;
+  margin: 0 auto;
+}
+.contain-contakt{
+  max-width: 940px;
+  margin: 0 auto;
+}
 .contakt__title {
   font-family: Montserrat;
   font-size: 40px;
@@ -483,24 +495,16 @@ service__commerrce-ikon {
   color: #777777;
   padding-top: 15px;
 }
-.contakt {
-  position: relative;
-  max-width: 1400px;
-  background-color: #222222;
-  height: 676px;
-  margin: 0 auto;
-}
-.contakt:before {
-  content: "";
-  background-image: url(../img/map.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+
+.contakt__bacground-img {
   position: absolute;
   top: 120px;
-  left: 50%;
-  width: 614px;
-  height: 646px;
+  right: 0%;
   opacity: 0.3;
+}
+.contakt__bacground-img img{
+  width: 100%;
+  height: auto;
 }
 .form {
   display: flex;
@@ -632,7 +636,6 @@ service__commerrce-ikon {
 /* media start */
 @media (max-width: 980px) {
   .form__message {
-    width: 457px;
     margin-right: 20px;
   }
   .form__inner input {
